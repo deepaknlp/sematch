@@ -24,7 +24,7 @@ cd sematch
 python setup.py install
 ```
 
-To compute UMLS similariy, download MRCONSO.RRF and MRREL.RRF and place them into the dataset directory like:
+To compute UMLS similariy, download MRCONSO.RRF and MRREL.RRF from [UMLS](https://www.nlm.nih.gov/research/umls/index.html) and place them into the dataset directory like:
 ```dataset/umls/MRCONSO.RRF```
 ```dataset/umls/MRREL.RRF```
 See example in ```umls_example.py```
